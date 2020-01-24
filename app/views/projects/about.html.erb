@@ -1,0 +1,32 @@
+<%= render partial: "header" %>
+
+<div class="container">
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Skill</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Works</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+    </li>
+  </ul>
+</div>
+
+<%# ここから下がメイン %>
+<div class="container">
+  <h2 class="aboutheader">About</h2>
+  <p class="mycomment">
+  2019年4月に新卒で不動産管理会社に入社。
+  <br>
+  2019年10月に退職し、プログラミングスクール(TECH:EXPERT)に通う。
+  <br>
+  2020年1月にプログラミングスクールを卒業し、東京で就職活動を行う。
+  </p>
+  <div class="myprofile">
+  <%= image_tag 'mypicture4.jpg', height:160,width:160%>
+</div>
