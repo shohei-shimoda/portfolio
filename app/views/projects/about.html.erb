@@ -23,10 +23,23 @@
   <p class="mycomment">
   2019年4月に新卒で不動産管理会社に入社。
   <br>
-  2019年10月に退職し、プログラミングスクール(TECH:EXPERT)に通う。
+  2019年10月に退職し、プログラミングスクールに通う。
   <br>
   2020年1月にプログラミングスクールを卒業し、東京で就職活動を行う。
   </p>
-  <div class="myprofile">
-  <%= image_tag 'mypicture4.jpg', height:160,width:160%>
+  <div class="my">
+    <div class="my__myprofile pr-5">
+      <%= image_tag 'mypicture4.jpg', height:160,width:160%>
+    </div>
+    <div class="my__introduction">
+      名前：下田 翔平（しもだ しょうへい）<br>
+      所在地：愛知県<br>
+      お問い合わせ：n65.shimdoa.shohei@gmail.com<br>
+      名称：SHIMODA PORTFOLIO<br>
+      事業内容：特になし<br>
+      SNS：https://twitter.com/shimo_engineers
+    </div>
+  </div>
 </div>
+
+<%= render partial: "footer" %>
