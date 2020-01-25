@@ -1,0 +1,10 @@
+// 画像にカーソルを置くと白くなるCSS
+img:hover {
+  opacity: 0.75;
+}
+
+// 画像にカーソルを置くと指が変わるCSS
+.imagezone {
+cursor: pointer;
+}
+ 
