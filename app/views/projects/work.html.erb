@@ -15,4 +15,59 @@
       <a class="nav-link" href="/projects/contact" tabindex="-1" aria-disabled="true">Contact</a>
     </li>
   </ul>
+    <h2 class="aboutheader">Works</h2>
+    <div class="mainwork">
+      <%= link_to "http://54.238.248.33/", :target=>["_blank"] do %>
+        <%= image_tag 'portfolio.jpg',class:"imagework"%>
+      <% end %>
+      <h3>~SHIMOFOLIO~</h3>
+      HTML,SCSS / Ruby / Ruby on Rails / AWS / GitHub / JavaScript / Bootstrap
+      <br>
+      <br>
+      自身のポートフォリオを作成いたしました。<br>
+      今まで学習した内容にBootstrapを織り交ぜてました。<br>
+      「シンプルで見やすい」を意識して作り上げました。
+    </div>
+    <div class="mainwork">
+      <%= link_to "http://54.64.93.92/", :target=>["_blank"] do %>
+        <%= image_tag 'freemarket.jpg',class:"imagework"%>
+      <% end %>
+      <h3>~Freemarket~</h3>
+      Haml,SCSS / Ruby / Ruby on Rails / AWS / GitHub / JavaScript / jQuery
+      <br>
+      <br>
+      プログラミングスクールで作成したものです。<br>
+      チーム(4人)で開発した作品でございます。<br>
+      Basic認証がかかっているため、ご覧いただく際は一度ご連絡をお願いいたします。
+      
+    </div>
+    <div class="mainwork">
+      <%= link_to "https://musicalinstrument.herokuapp.com/", :target=>["_blank"] do %>
+        <%= image_tag 'mypreciousinstrument.jpg',class:"imagework"%>
+      <% end %>
+      <h3>~my precious instrument~</h3>
+      HTML,SCSS / Ruby / Ruby on Rails / Heroku / GitHub
+      <br>
+      <br>
+      音楽動画投稿サイトです。<br>
+      幼少期からピアノとギターを習っていたため、音楽系のサイトを作ろうと思い作成いたしました。<br>
+      Herokuでデプロイをしているため、投稿してから少し時間が経つと動画が消えてしまいます。
+    </div>
+</div>
+
+<div class="container mt-5">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/projects/about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/projects/skill">Skill</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="/projects/work">Works</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/projects/contact" tabindex="-1" aria-disabled="true">Contact</a>
+    </li>
+  </ul>
 </div>
