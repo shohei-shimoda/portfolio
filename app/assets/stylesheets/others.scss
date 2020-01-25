@@ -8,3 +8,5 @@ img:hover {
 cursor: pointer;
 }
  
+// 画像にカーソルを置くと浮くCSS
+.imageup:hover{	box-shadow: 0 10px 15px -5px rgba(0,0,0,.15),0 0 5px rgba(0,0,0,.1);/*浮いた時の影*/	transform: translateY(-3px);/*浮く高さ*/	transition: 0.3s;/*浮く速さ（秒）*/	background: rgba(238,238,238,.4);/*浮いた時の背景色（なくてもよい）*/	}

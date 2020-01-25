@@ -16,6 +16,67 @@
     </li>
   </ul>
 
-  
+  <h2 class="aboutheader">Skill</h2>
+
+  <html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <canvas id="myRaderChart"></canvas>
+    <!-- CDN -->
+  　<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+    <script>
+      var ctx = document.getElementById("myRaderChart");
+      var myRadarChart = new Chart(ctx, {
+          type: 'radar', 
+          data: { 
+              labels: ["HTML/CSS", "JavaScript", "Ruby", "Ruby on Rails", "AWS/Git"],
+              datasets: [{
+                  label: 'スキルをグラフィカルに表現しました。',
+                  data: [80, 30, 40, 65, 50],
+                  backgroundColor: 'RGBA(225,95,150, 0.5)',
+                  borderColor: 'RGBA(225,95,150, 1)',
+                  borderWidth: 1,
+                  pointBackgroundColor: 'RGB(46,106,177)'
+              }]
+          },
+          options: {
+              title: {
+                  display: true,
+              },
+              scale:{
+                  ticks:{
+                      suggestedMin: 0,
+                      suggestedMax: 100,
+                      stepSize: 20,
+                      callback: function(value, index, values){
+                          return  value
+                      }
+                  }
+              }
+          }
+      });
+      </script>
+  </body>
+  </html>
 </div>
 
+<div class="container mt-5">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/projects/about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="/projects/skill">Skill</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/projects/work">Works</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/projects/contact" tabindex="-1" aria-disabled="true">Contact</a>
+    </li>
+  </ul>
+</div>
