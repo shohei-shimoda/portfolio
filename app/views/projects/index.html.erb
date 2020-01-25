@@ -6,20 +6,30 @@
       <a class="nav-link" href="/projects/about">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Skill</a>
+      <a class="nav-link" href="/projects/skill">Skill</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Works</a>
+      <a class="nav-link" href="/projects/work">Works</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+      <a class="nav-link" href="/projects/contact" tabindex="-1" aria-disabled="true">Contact</a>
     </li>
   </ul>
 </div>
-
 <div class="container-fluid">
-  <div><img class="img-fluid rounded" src="https://picsum.photos/1410/400"></div>
+  <%= image_tag 'topview.jpg', height:400,width:1410%>
 </div>
-
-
+<div class="container">
+  <div class="service mt-5">Service</div>
+  <div class="service__contact">
+  <%= image_tag 'puropuro.jpg', height:160,width:160%>
+  ※※※現在サービスは行っておりません。※※※
+  <%= image_tag 'puropuro2.jpg', height:160,width:160%>
+  <div class="service mt-5">Works</div>
+  <ul class="imagezone">
+    <%= image_tag 'portfolio.jpg', height:250,width:280%>
+    <%= image_tag 'freemarket.jpg', height:250,width:280%>
+    <%= image_tag 'mypreciousinstrument.jpg', height:250,width:280%>
+  </ul>
+</div>
 <%= render partial: "footer" %>
