@@ -29,9 +29,24 @@
   <%= image_tag 'puropuro2.jpg', height:160,width:160%>
   <div class="service mt-5">Works</div>
   <ul class="imagezone">
-    <%= link_to "http://54.238.248.33/", :target=>["_blank"] do %><%= image_tag 'portfolio.jpg', height:250,width:280,class:"imageup"%><% end %>
-    <%= link_to "http://54.64.93.92/", :target=>["_blank"] do %><%= image_tag 'freemarket.jpg', height:250,width:280,class:"imageup"%><% end %>
-    <%= link_to "https://musicalinstrument.herokuapp.com/", :target=>["_blank"] do %><%= image_tag 'mypreciousinstrument.jpg', height:250,width:280,class:"imageup"%><% end %>
+    <div class="sample8">
+      <%= link_to "http://54.238.248.33/", :target=>["_blank"] do %><%= image_tag 'portfolio.jpg', height:250,width:280,class:"imageup"%><% end %>
+      <div class="mask">
+        <div class="caption">Let's go！</div>
+      </div>
+    </div>
+    <div class="sample8">
+      <%= link_to "http://54.64.93.92/", :target=>["_blank"] do %><%= image_tag 'freemarket.jpg', height:250,width:280,class:"imageup"%><% end %>
+      <div class="mask">
+        <div class="caption">Let's go！</div>
+      </div>
+    </div>
+    <div class="sample8">
+      <%= link_to "https://musicalinstrument.herokuapp.com/", :target=>["_blank"] do %><%= image_tag 'mypreciousinstrument.jpg', height:250,width:280,class:"imageup"%><% end %>
+      <div class="mask">
+        <div class="caption">Let's go！</div>
+      </div>
+    </div>
   </ul>
 </div>
 <%= render partial: "footer" %>
