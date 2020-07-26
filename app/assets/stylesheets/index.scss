@@ -30,3 +30,54 @@ cursor: pointer;
   height:400px;
   width: 100%;
 }
+
+small {
+  float:right;
+}
+
+//service部分
+
+section {
+  width: 280px;
+  height: auto;
+  margin-right: 40px;
+  margin-top: 20px
+}
+
+.service1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+p.text {
+  font-family: serif;
+  text-align: left;
+}
+
+.fa-laptop-code {
+  font-size: 90px;
+  margin-top: 15px;
+  margin-bottom: 20px
+}
+.fa-newspaper {
+  font-size: 90px;
+  margin-bottom: 20px
+}
+.fa-wordpress {
+  font-size: 90px;
+  margin-bottom: 20px
+}
+
+.slider {
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:600px) {
+
+.p {
+  color: red;
+}
+  
+}
